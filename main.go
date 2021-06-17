@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 )
@@ -55,5 +56,11 @@ func foo(w http.ResponseWriter, r *http.Request) {
 }
 
 func bar(w http.ResponseWriter, r *http.Request) {
+	var p1 person
+	err := json.NewDecoder(r.Body).Decode(&p1)
+	if err != nil {
+		log.Println("Decoded bad data ", err)
+	}
 
+	fmt.Println("Person: ", p1)
 }
