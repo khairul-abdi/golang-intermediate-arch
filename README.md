@@ -1,6 +1,6 @@
 # golang intermediate arch
 
-## List Tag 
+## List of learn Go Intermediate
 1.  [inital Commit           tag 0.0.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.0.0)
 2.  [adds go module              0.1.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.1.0)
 3.  [adds marshall example       0.2.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.2.0)
