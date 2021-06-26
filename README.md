@@ -11,3 +11,5 @@
 8.  [ninja: 01 ex 01             0.7.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.7.0)
 9.  [ninja: 01 ex 02             0.8.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.8.0)
 10. [Base64 user:pass example    0.9.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.9.0)
+11. [Hashing example             0.10.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.10.0)
+12. [Hmac functions              0.11.0](https://github.com/khairul-abdi/golang-intermediate-arch/tree/v0.11.0)
