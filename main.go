@@ -11,7 +11,6 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
-<<<<<<< HEAD
 type UserClaims struct {
 	jwt.StandardClaims
 	SessionID int64
@@ -28,9 +27,8 @@ func (u *UserClaims) Valid() error {
 
 	return nil
 }
-=======
+
 var key = []byte{}
->>>>>>> f2a2849dbaf7748613f290f887052d33c3d873c1
 
 func main() {
 	for i := 1; i <= 64; i++ {
